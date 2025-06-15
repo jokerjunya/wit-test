@@ -451,6 +451,171 @@ const questionBank = [
                 typeLabel: "後出し型"
             }
         ]
+    },
+    {
+        id: "tense_meeting",
+        title: "会議がピリついているとき",
+        theme: "場の空気転換・緊張緩和・新卒らしい対応",
+        situation: "部署の会議で上司と他部署の担当者が軽く言い合いになり、空気がピリッとした状態になりました。あなたは新卒1年目で、次の発言者として指名されました。",
+        question: "この空気を和らげるために、どんな発言をしますか？",
+        options: [
+            { 
+                id: "a", 
+                text: "あ…空気、固まりましたね。ちょっと深呼吸してから話します（笑）", 
+                scores: { originality: 4, empathy: 5, improvisation: 4 },
+                typeLabel: "自然体型"
+            },
+            { 
+                id: "b", 
+                text: "この空気…BGM流したくなりますね", 
+                scores: { originality: 5, empathy: 3, improvisation: 5 },
+                typeLabel: "場面転換型"
+            },
+            { 
+                id: "c", 
+                text: "この静けさ、なんか月曜日の朝っぽいですね", 
+                scores: { originality: 4, empathy: 4, improvisation: 4 },
+                typeLabel: "比喩型"
+            },
+            { 
+                id: "d", 
+                text: "あの…なんか、すみません、めちゃ緊張してきました", 
+                scores: { originality: 3, empathy: 5, improvisation: 3 },
+                typeLabel: "素直型"
+            }
+        ]
+    },
+    {
+        id: "after_big_laugh",
+        title: "前の人がウケた直後に指名",
+        theme: "プレッシャー対応・期待値管理・ユーモアセンス",
+        situation: "Zoom会議で前の人がめちゃくちゃ笑いを取った直後、あなたに「最後に一言どうぞ」と振られました。みんなの期待の視線を感じます。",
+        question: "この状況で何と言いますか？",
+        options: [
+            { 
+                id: "a", 
+                text: "……これ、たぶん何言ってもスベりますよね（笑）", 
+                scores: { originality: 4, empathy: 4, improvisation: 5 },
+                typeLabel: "予防線型"
+            },
+            { 
+                id: "b", 
+                text: "前の方に笑い全部持ってかれました（苦笑）", 
+                scores: { originality: 3, empathy: 4, improvisation: 3 },
+                typeLabel: "素直型"
+            },
+            { 
+                id: "c", 
+                text: "あ、先に言っておくと…ちょっと静かになります", 
+                scores: { originality: 4, empathy: 5, improvisation: 4 },
+                typeLabel: "期待値調整型"
+            },
+            { 
+                id: "d", 
+                text: "一旦、拍手の音でごまかしてもらえませんか？", 
+                scores: { originality: 5, empathy: 3, improvisation: 5 },
+                typeLabel: "逃げ道型"
+            }
+        ]
+    },
+    {
+        id: "junior_mistake",
+        title: "後輩がやらかして空気が凍ったとき",
+        theme: "フォロー力・共感性・場の修復",
+        situation: "後輩がプレゼンで明らかなミスをして、会議室がしーんとなってしまいました。後輩は真っ青になっています。あなたは空気を変えたいと思っています。",
+        question: "どんな声をかけますか？",
+        options: [
+            { 
+                id: "a", 
+                text: "大丈夫、僕も3回くらいやってます、それ", 
+                scores: { originality: 3, empathy: 5, improvisation: 4 },
+                typeLabel: "共感フォロー型"
+            },
+            { 
+                id: "b", 
+                text: "やらかしグループにようこそ（笑）", 
+                scores: { originality: 4, empathy: 4, improvisation: 4 },
+                typeLabel: "仲間意識型"
+            },
+            { 
+                id: "c", 
+                text: "むしろ、その空気、僕がほしかったです", 
+                scores: { originality: 5, empathy: 3, improvisation: 5 },
+                typeLabel: "逆転発想型"
+            },
+            { 
+                id: "d", 
+                text: "あれ？なんか今日、風、冷たくないですか？", 
+                scores: { originality: 4, empathy: 4, improvisation: 3 },
+                typeLabel: "話題転換型"
+            }
+        ]
+    },
+    {
+        id: "dissenting_opinion",
+        title: "全員YESの中でNOを言いたいとき",
+        theme: "意見表明・空気読み・建設的反対",
+        situation: "チームミーティングでみんなが盛り上がっている企画案があります。あなたは少し違和感を感じているのですが、場の雰囲気を壊したくもありません。",
+        question: "どのように自分の意見を伝えますか？",
+        options: [
+            { 
+                id: "a", 
+                text: "これ、8割正解な気がしてるんですけど、ちょっとだけ違和感あって…", 
+                scores: { originality: 4, empathy: 5, improvisation: 4 },
+                typeLabel: "段階的反対型"
+            },
+            { 
+                id: "b", 
+                text: "空気壊さない範囲で、逆張ってみてもいいですか？", 
+                scores: { originality: 5, empathy: 4, improvisation: 4 },
+                typeLabel: "許可求め型"
+            },
+            { 
+                id: "c", 
+                text: "いや、すごい分かるんですけど…「でも」がちょっとだけうるさくて…", 
+                scores: { originality: 4, empathy: 4, improvisation: 5 },
+                typeLabel: "内なる声型"
+            },
+            { 
+                id: "d", 
+                text: "めちゃくちゃ良いです。…が、1%だけ反論させてください", 
+                scores: { originality: 5, empathy: 5, improvisation: 4 },
+                typeLabel: "数値化型"
+            }
+        ]
+    },
+    {
+        id: "zoom_background_fail",
+        title: "Zoom背景が事故ってる状態で指名",
+        theme: "緊急対応・自己フォロー・リモートワーク対応",
+        situation: "Zoom会議中、背景がバグって洗濯物や部屋の様子が映ってしまっています。そのタイミングであなたが発言を求められました。",
+        question: "この状況をどう切り抜けますか？",
+        options: [
+            { 
+                id: "a", 
+                text: "えっと…この背景、今日のトピックとは無関係です（笑）", 
+                scores: { originality: 4, empathy: 4, improvisation: 5 },
+                typeLabel: "説明型"
+            },
+            { 
+                id: "b", 
+                text: "すみません、いろいろ見えてるの、わかってます…！", 
+                scores: { originality: 3, empathy: 5, improvisation: 3 },
+                typeLabel: "謝罪型"
+            },
+            { 
+                id: "c", 
+                text: "あの…これは事故です（苦笑）", 
+                scores: { originality: 2, empathy: 4, improvisation: 3 },
+                typeLabel: "シンプル型"
+            },
+            { 
+                id: "d", 
+                text: "背景、こういう時こそ、主役になりますね…", 
+                scores: { originality: 5, empathy: 3, improvisation: 4 },
+                typeLabel: "哲学型"
+            }
+        ]
     }
 ];
 
@@ -509,7 +674,23 @@ const witTypes = {
     "忍耐型": { emoji: "🧘", description: "我慢強い性格" },
     "間接アピール型": { emoji: "🔔", description: "さりげない存在感" },
     "オープン型": { emoji: "🌟", description: "オープンなコミュニケーション" },
-    "後出し型": { emoji: "⏰", description: "タイミングを見極める力" }
+    "後出し型": { emoji: "⏰", description: "タイミングを見極める力" },
+    "自然体型": { emoji: "🌿", description: "自然な反応で場を和ませる" },
+    "比喩型": { emoji: "🎨", description: "巧みな比喩で状況を表現" },
+    "予防線型": { emoji: "🛡️", description: "リスクを予測して対処" },
+    "期待値調整型": { emoji: "📊", description: "相手の期待をコントロール" },
+    "逃げ道型": { emoji: "🚪", description: "巧妙な回避術を持つ" },
+    "共感フォロー型": { emoji: "🤗", description: "相手に寄り添うフォロー力" },
+    "仲間意識型": { emoji: "👥", description: "連帯感で場を和ませる" },
+    "逆転発想型": { emoji: "🔄", description: "マイナスをプラスに変える発想" },
+    "話題転換型": { emoji: "🎭", description: "自然な話題転換で場を変える" },
+    "段階的反対型": { emoji: "📈", description: "段階的に意見を伝える技術" },
+    "許可求め型": { emoji: "🙋", description: "相手の許可を得て発言する配慮" },
+    "内なる声型": { emoji: "💭", description: "内面の声を表現する技術" },
+    "数値化型": { emoji: "🔢", description: "感情を数値で表現する技術" },
+    "説明型": { emoji: "📝", description: "状況を的確に説明する力" },
+    "謝罪型": { emoji: "🙇‍♂️", description: "素直な謝罪で信頼を得る" },
+    "シンプル型": { emoji: "⚪", description: "シンプルで分かりやすい対応" }
 };
 
 // 稽古メニューの定義

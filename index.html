@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ウィット診断テスト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- スタート画面 -->
+        <div id="start-screen" class="screen active">
+            <div class="content">
+                <h1>🧠 ウィット診断テスト</h1>
+                <p>あなたの「軽やかな頭の回転」を診断します！<br>リアルなシチュエーション問題で、あなたのウィット力を測定。</p>
+                <div class="feature-tags">
+                    <span class="feature-tag">🎯 3軸評価</span>
+                    <span class="feature-tag">🏷️ タイプ分類</span>
+                    <span class="feature-tag">💪 稽古メニュー</span>
+                </div>
+                <button id="start-btn" class="btn primary">テスト開始</button>
+            </div>
+        </div>
+
+        <!-- 問題画面 -->
+        <div id="question-screen" class="screen">
+            <div class="content">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+                <div class="question-info">
+                    <span id="question-number">問題 1/5</span>
+                </div>
+                <h2 id="question-text">問題文がここに表示されます</h2>
+                <div id="options-container" class="options-container">
+                    <!-- 選択肢がここに動的に生成されます -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 結果画面 -->
+        <div id="result-screen" class="screen">
+            <div class="content">
+                <h1>🎉 診断結果</h1>
+                <div class="score-display">
+                    <div class="score-circle">
+                        <span id="total-score">0</span>
+                        <span class="score-label">ポイント</span>
+                    </div>
+                </div>
+                <div id="result-description" class="result-description">
+                    <!-- 結果の説明がここに表示されます -->
+                </div>
+                <button id="restart-btn" class="btn primary">もう一度テスト</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

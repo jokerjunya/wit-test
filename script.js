@@ -689,9 +689,9 @@ class WitTest {
         // 色を変更（5秒以下で警告色）
         const timerDisplay = document.getElementById('timer-display');
         if (this.timeRemaining <= 5) {
-            timerDisplay.style.background = '#ff4757';
+            timerDisplay.style.background = '#c0392b';
         } else {
-            timerDisplay.style.background = '#ff6b6b';
+            timerDisplay.style.background = '#e74c3c';
         }
     }
 

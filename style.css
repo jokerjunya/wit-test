@@ -290,8 +290,6 @@ body {
     margin-bottom: 6px;
     line-height: 1.2;
     border-left: 3px solid #3498db;
-    max-height: 50px;
-    overflow-y: auto;
 }
 
 .question-main {
@@ -519,7 +517,6 @@ body {
         .question-situation {
         padding: 8px 12px;
         font-size: 0.65em;
-        max-height: 45px;
     }
 
     .question-main {

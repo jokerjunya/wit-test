@@ -18,6 +18,11 @@
                     <span class="feature-tag">🏷️ タイプ分類</span>
                     <span class="feature-tag">💪 稽古メニュー</span>
                 </div>
+                <div class="mode-selection">
+                    <h3>テストモードを選択</h3>
+                    <button id="normal-mode-btn" class="btn mode-btn active">通常モード</button>
+                    <button id="timer-mode-btn" class="btn mode-btn">10秒制限モード ⏰</button>
+                </div>
                 <button id="start-btn" class="btn primary">テスト開始</button>
             </div>
         </div>
@@ -30,6 +35,11 @@
                 </div>
                 <div class="question-info">
                     <span id="question-number">問題 1/5</span>
+                    <div id="timer-display" class="timer-display" style="display: none;">
+                        <span id="timer-text">残り時間: </span>
+                        <span id="timer-seconds">10</span>
+                        <span>秒</span>
+                    </div>
                 </div>
                 <h2 id="question-text">問題文がここに表示されます</h2>
                 <div id="options-container" class="options-container">
@@ -51,7 +61,11 @@
                 <div id="result-description" class="result-description">
                     <!-- 結果の説明がここに表示されます -->
                 </div>
-                <button id="restart-btn" class="btn primary">もう一度テスト</button>
+                <div class="action-buttons">
+                    <button id="share-twitter-btn" class="btn share-btn">🐦 Twitterで共有</button>
+                    <button id="share-line-btn" class="btn share-btn">💬 LINEで共有</button>
+                    <button id="restart-btn" class="btn primary">もう一度テスト</button>
+                </div>
             </div>
         </div>
     </div>

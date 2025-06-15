@@ -226,6 +226,231 @@ const questionBank = [
                 typeLabel: "哲学型"
             }
         ]
+    },
+    {
+        id: "elevator_awkward",
+        title: "エレベーターでの微妙な状況",
+        theme: "気まずさ回避・場の空気作り・コミュニケーション",
+        situation: "オフィスビルのエレベーターに乗ったら、知り合いではないけれど何度か見かけたことがある人と二人きりになりました。20階まで約1分間、無言の時間が続いています。",
+        question: "この状況をどう過ごしますか？",
+        options: [
+            { 
+                id: "a", 
+                text: "スマホを見て時間をやり過ごす", 
+                scores: { originality: 1, empathy: 2, improvisation: 1 },
+                typeLabel: "回避型"
+            },
+            { 
+                id: "b", 
+                text: "「今日は良い天気ですね」と天気の話をする", 
+                scores: { originality: 2, empathy: 4, improvisation: 3 },
+                typeLabel: "定番型"
+            },
+            { 
+                id: "c", 
+                text: "「このエレベーター、BGMがあったらいいのに」とつぶやく", 
+                scores: { originality: 4, empathy: 3, improvisation: 4 },
+                typeLabel: "場面転換型"
+            },
+            { 
+                id: "d", 
+                text: "階数ボタンを見て「全部押してみたい衝動に駆られませんか？」", 
+                scores: { originality: 5, empathy: 2, improvisation: 5 },
+                typeLabel: "共感誘発型"
+            },
+            { 
+                id: "e", 
+                text: "軽く会釈して微笑む", 
+                scores: { originality: 2, empathy: 5, improvisation: 2 },
+                typeLabel: "礼儀型"
+            },
+            { 
+                id: "f", 
+                text: "「エレベーターって密室ですよね…」と意味深に言う", 
+                scores: { originality: 5, empathy: 1, improvisation: 4 },
+                typeLabel: "謎かけ型"
+            }
+        ]
+    },
+    {
+        id: "food_disaster",
+        title: "食事中の失敗",
+        theme: "リカバリー・自己フォロー・場の緊張緩和",
+        situation: "大切な人との食事中、パスタを食べていたらソースが白いシャツに跳ねてしまいました。相手も気づいて心配そうな顔をしています。",
+        question: "この状況にどう対応しますか？",
+        options: [
+            { 
+                id: "a", 
+                text: "「すみません、お手洗いに行ってきます」と席を立つ", 
+                scores: { originality: 2, empathy: 4, improvisation: 2 },
+                typeLabel: "対処型"
+            },
+            { 
+                id: "b", 
+                text: "「シャツがパスタを食べたがってたみたいです」と笑い飛ばす", 
+                scores: { originality: 4, empathy: 4, improvisation: 5 },
+                typeLabel: "自虐ユーモア型"
+            },
+            { 
+                id: "c", 
+                text: "「これで今日のファッションが完成しました」とポーズを決める", 
+                scores: { originality: 5, empathy: 3, improvisation: 4 },
+                typeLabel: "ポジティブ型"
+            },
+            { 
+                id: "d", 
+                text: "気づかないふりをして食事を続ける", 
+                scores: { originality: 1, empathy: 1, improvisation: 1 },
+                typeLabel: "無視型"
+            },
+            { 
+                id: "e", 
+                text: "「トマトソースのタトゥーです」と説明する", 
+                scores: { originality: 5, empathy: 2, improvisation: 5 },
+                typeLabel: "ウィット型"
+            },
+            { 
+                id: "f", 
+                text: "「すみません、緊張してしまって…」と素直に謝る", 
+                scores: { originality: 2, empathy: 5, improvisation: 2 },
+                typeLabel: "誠実型"
+            }
+        ]
+    },
+    {
+        id: "presentation_tech_trouble",
+        title: "プレゼン中の機器トラブル",
+        theme: "危機管理・即興対応・プレッシャー下の判断",
+        situation: "重要なプレゼンテーション中、スライドが突然動かなくなりました。聴衆20名が待っています。IT担当者は「復旧に5分程度かかります」と言っています。",
+        question: "この時間をどう活用しますか？",
+        options: [
+            { 
+                id: "a", 
+                text: "「少々お待ちください」と言って復旧を待つ", 
+                scores: { originality: 1, empathy: 3, improvisation: 1 },
+                typeLabel: "待機型"
+            },
+            { 
+                id: "b", 
+                text: "スライドなしで要点を口頭で説明する", 
+                scores: { originality: 3, empathy: 4, improvisation: 4 },
+                typeLabel: "臨機応変型"
+            },
+            { 
+                id: "c", 
+                text: "「これも含めてプレゼンです。機器に頼らない真のコミュニケーションをお見せします」", 
+                scores: { originality: 5, empathy: 3, improvisation: 5 },
+                typeLabel: "逆手型"
+            },
+            { 
+                id: "d", 
+                text: "「皆さんに質問です。今日の朝ごはんは何でしたか？」とアイスブレイク", 
+                scores: { originality: 4, empathy: 5, improvisation: 4 },
+                typeLabel: "場つなぎ型"
+            },
+            { 
+                id: "e", 
+                text: "ホワイトボードに図を描きながら説明を続ける", 
+                scores: { originality: 3, empathy: 4, improvisation: 5 },
+                typeLabel: "代替手段型"
+            },
+            { 
+                id: "f", 
+                text: "「機械は正直ですね。私のプレゼンが退屈だと感じて寝てしまいました」", 
+                scores: { originality: 5, empathy: 4, improvisation: 4 },
+                typeLabel: "自虐ユーモア型"
+            }
+        ]
+    },
+    {
+        id: "wrong_name_call",
+        title: "名前間違いの対応",
+        theme: "間違い訂正・相手への配慮・印象管理",
+        situation: "新しい職場で、上司が3回続けてあなたの名前を間違えて呼んでいます。周りの同僚も気づいているようです。",
+        question: "どのタイミングで、どう訂正しますか？",
+        options: [
+            { 
+                id: "a", 
+                text: "すぐに「すみません、正しくは○○です」と訂正する", 
+                scores: { originality: 2, empathy: 3, improvisation: 3 },
+                typeLabel: "直接型"
+            },
+            { 
+                id: "b", 
+                text: "会話の後で個別に「お疲れ様です。○○です」と改めて自己紹介", 
+                scores: { originality: 3, empathy: 5, improvisation: 3 },
+                typeLabel: "配慮型"
+            },
+            { 
+                id: "c", 
+                text: "「その名前も素敵ですが、実は○○なんです」と笑顔で", 
+                scores: { originality: 4, empathy: 4, improvisation: 4 },
+                typeLabel: "ソフト訂正型"
+            },
+            { 
+                id: "d", 
+                text: "間違った名前で呼ばれたときだけ反応しないでいる", 
+                scores: { originality: 2, empathy: 2, improvisation: 2 },
+                typeLabel: "消極的抵抗型"
+            },
+            { 
+                id: "e", 
+                text: "「改名を検討します」と冗談めかして訂正", 
+                scores: { originality: 5, empathy: 3, improvisation: 5 },
+                typeLabel: "ユーモア型"
+            },
+            { 
+                id: "f", 
+                text: "しばらく様子を見て、相手が気づくまで待つ", 
+                scores: { originality: 1, empathy: 3, improvisation: 1 },
+                typeLabel: "忍耐型"
+            }
+        ]
+    },
+    {
+        id: "overheard_gossip",
+        title: "立ち聞きしてしまった状況",
+        theme: "倫理的判断・気まずさ処理・人間関係",
+        situation: "休憩室で飲み物を取ろうとしたら、同僚2人があなたについて話しているのが聞こえてしまいました。内容は特に悪いものではありませんが、気づかれていません。",
+        question: "この状況にどう対処しますか？",
+        options: [
+            { 
+                id: "a", 
+                text: "そっと立ち去って、何も聞かなかったことにする", 
+                scores: { originality: 2, empathy: 4, improvisation: 2 },
+                typeLabel: "回避型"
+            },
+            { 
+                id: "b", 
+                text: "わざと大きな音を立てて存在をアピール", 
+                scores: { originality: 3, empathy: 3, improvisation: 3 },
+                typeLabel: "間接アピール型"
+            },
+            { 
+                id: "c", 
+                text: "「良い評価をありがとうございます」と明るく入室", 
+                scores: { originality: 4, empathy: 3, improvisation: 5 },
+                typeLabel: "オープン型"
+            },
+            { 
+                id: "d", 
+                text: "「主役の登場です！」と大げさに現れる", 
+                scores: { originality: 5, empathy: 2, improvisation: 5 },
+                typeLabel: "エンターテイナー型"
+            },
+            { 
+                id: "e", 
+                text: "咳払いをして存在を知らせてから入室", 
+                scores: { originality: 2, empathy: 5, improvisation: 3 },
+                typeLabel: "礼儀型"
+            },
+            { 
+                id: "f", 
+                text: "後で「何かいい話をしてくれてたみたいですね」と軽く触れる", 
+                scores: { originality: 4, empathy: 4, improvisation: 4 },
+                typeLabel: "後出し型"
+            }
+        ]
     }
 ];
 
@@ -260,7 +485,31 @@ const witTypes = {
     "皮肉型": { emoji: "😉", description: "ウィットに富んだ表現力" },
     "開き直り型": { emoji: "🦁", description: "堂々とした態度で印象づける" },
     "とぼけ型": { emoji: "🤔", description: "独特のユーモアセンス" },
-    "哲学型": { emoji: "🎓", description: "深い思考で場を驚かせる" }
+    "哲学型": { emoji: "🎓", description: "深い思考で場を驚かせる" },
+    "回避型": { emoji: "🚪", description: "トラブルを避ける判断力" },
+    "定番型": { emoji: "📖", description: "安心感のある対応力" },
+    "場面転換型": { emoji: "🎬", description: "状況を変える発想力" },
+    "共感誘発型": { emoji: "🤝", description: "相手の気持ちを引き出す" },
+    "礼儀型": { emoji: "🙇", description: "品格のある振る舞い" },
+    "謎かけ型": { emoji: "❓", description: "ミステリアスな魅力" },
+    "対処型": { emoji: "🛠️", description: "的確な問題解決能力" },
+    "自虐ユーモア型": { emoji: "😂", description: "自分をネタにする余裕" },
+    "ポジティブ型": { emoji: "☀️", description: "前向きな思考力" },
+    "無視型": { emoji: "😶", description: "動じない精神力" },
+    "ウィット型": { emoji: "💡", description: "機転の利いた表現力" },
+    "待機型": { emoji: "⏳", description: "慎重な判断力" },
+    "臨機応変型": { emoji: "🎯", description: "状況に合わせた対応力" },
+    "逆手型": { emoji: "🔄", description: "マイナスをプラスに変える力" },
+    "場つなぎ型": { emoji: "🎪", description: "場を盛り上げる技術" },
+    "代替手段型": { emoji: "🔧", description: "別の方法を見つける創造力" },
+    "直接型": { emoji: "🎯", description: "率直なコミュニケーション" },
+    "配慮型": { emoji: "💖", description: "相手を思いやる心" },
+    "ソフト訂正型": { emoji: "🌸", description: "優しく指摘する技術" },
+    "消極的抵抗型": { emoji: "🤐", description: "静かな主張力" },
+    "忍耐型": { emoji: "🧘", description: "我慢強い性格" },
+    "間接アピール型": { emoji: "🔔", description: "さりげない存在感" },
+    "オープン型": { emoji: "🌟", description: "オープンなコミュニケーション" },
+    "後出し型": { emoji: "⏰", description: "タイミングを見極める力" }
 };
 
 // 稽古メニューの定義
@@ -293,6 +542,13 @@ class WitTest {
         this.answers = [];
         this.scores = { originality: 0, empathy: 0, improvisation: 0 };
         this.typeLabels = [];
+        
+        // 新機能のフラグ
+        this.isTimerMode = false;
+        this.timeLimit = 10; // 秒
+        this.timeRemaining = 0;
+        this.timer = null;
+        
         this.init();
     }
 
@@ -302,6 +558,15 @@ class WitTest {
     }
 
     bindEvents() {
+        // モード選択ボタン
+        document.getElementById('normal-mode-btn').addEventListener('click', () => {
+            this.setMode(false);
+        });
+        
+        document.getElementById('timer-mode-btn').addEventListener('click', () => {
+            this.setMode(true);
+        });
+
         // スタートボタン
         document.getElementById('start-btn').addEventListener('click', () => {
             this.startTest();
@@ -311,6 +576,23 @@ class WitTest {
         document.getElementById('restart-btn').addEventListener('click', () => {
             this.restart();
         });
+
+        // 共有ボタン
+        document.getElementById('share-twitter-btn').addEventListener('click', () => {
+            this.shareToTwitter();
+        });
+
+        document.getElementById('share-line-btn').addEventListener('click', () => {
+            this.shareToLine();
+        });
+    }
+
+    setMode(isTimer) {
+        this.isTimerMode = isTimer;
+        
+        // ボタンの状態更新
+        document.getElementById('normal-mode-btn').classList.toggle('active', !isTimer);
+        document.getElementById('timer-mode-btn').classList.toggle('active', isTimer);
     }
 
     showScreen(screenId) {
@@ -324,8 +606,8 @@ class WitTest {
     }
 
     startTest() {
-        // ランダムに5問を選択（現在は全問出題）
-        this.selectedQuestions = [...questionBank];
+        // ランダムに5問を選択
+        this.selectedQuestions = this.selectRandomQuestions(questionBank, 5);
         this.currentQuestionIndex = 0;
         this.answers = [];
         this.scores = { originality: 0, empathy: 0, improvisation: 0 };
@@ -333,6 +615,11 @@ class WitTest {
         
         this.showQuestion();
         this.showScreen('question-screen');
+    }
+
+    selectRandomQuestions(questions, count) {
+        const shuffled = [...questions].sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, count);
     }
 
     showQuestion() {
@@ -345,6 +632,15 @@ class WitTest {
         // 問題番号の更新
         document.getElementById('question-number').textContent = 
             `問題 ${this.currentQuestionIndex + 1}/${this.selectedQuestions.length}`;
+
+        // タイマー表示の制御
+        const timerDisplay = document.getElementById('timer-display');
+        if (this.isTimerMode) {
+            timerDisplay.style.display = 'block';
+            this.startTimer();
+        } else {
+            timerDisplay.style.display = 'none';
+        }
 
         // 問題文の更新（シチュエーション + 問題）
         const questionContainer = document.getElementById('question-text');
@@ -373,7 +669,50 @@ class WitTest {
         });
     }
 
+    startTimer() {
+        this.timeRemaining = this.timeLimit;
+        this.updateTimerDisplay();
+        
+        this.timer = setInterval(() => {
+            this.timeRemaining--;
+            this.updateTimerDisplay();
+            
+            if (this.timeRemaining <= 0) {
+                this.timeOut();
+            }
+        }, 1000);
+    }
+
+    updateTimerDisplay() {
+        document.getElementById('timer-seconds').textContent = this.timeRemaining;
+        
+        // 色を変更（5秒以下で警告色）
+        const timerDisplay = document.getElementById('timer-display');
+        if (this.timeRemaining <= 5) {
+            timerDisplay.style.background = '#ff4757';
+        } else {
+            timerDisplay.style.background = '#ff6b6b';
+        }
+    }
+
+    stopTimer() {
+        if (this.timer) {
+            clearInterval(this.timer);
+            this.timer = null;
+        }
+    }
+
+    timeOut() {
+        this.stopTimer();
+        // ランダムに選択肢を選ぶ
+        const randomIndex = Math.floor(Math.random() * 6);
+        this.selectAnswer(randomIndex);
+    }
+
     selectAnswer(optionIndex) {
+        // タイマーを停止
+        this.stopTimer();
+        
         const question = this.selectedQuestions[this.currentQuestionIndex];
         const selectedOption = question.options[optionIndex];
         
@@ -384,7 +723,8 @@ class WitTest {
             optionId: selectedOption.id,
             optionText: selectedOption.text,
             scores: selectedOption.scores,
-            typeLabel: selectedOption.typeLabel
+            typeLabel: selectedOption.typeLabel,
+            timeTaken: this.isTimerMode ? (this.timeLimit - this.timeRemaining) : null
         });
 
         // 3軸スコアに加算
@@ -430,9 +770,59 @@ class WitTest {
             typeCounts[a] > typeCounts[b] ? a : b
         );
 
+        // 結果をLocalStorageに保存
+        this.saveResults(convertedScores, primaryType, typeCounts);
+
         // 結果の表示
         this.displayResults(convertedScores, primaryType, typeCounts);
         this.showScreen('result-screen');
+    }
+
+    saveResults(scores, primaryType, typeCounts) {
+        const results = {
+            timestamp: new Date().toISOString(),
+            mode: this.isTimerMode ? 'timer' : 'normal',
+            scores: scores,
+            primaryType: primaryType,
+            typeCounts: typeCounts,
+            answers: this.answers
+        };
+
+        // LocalStorageに保存
+        const savedResults = JSON.parse(localStorage.getItem('witTestResults') || '[]');
+        savedResults.push(results);
+        
+        // 最新10件のみ保持
+        if (savedResults.length > 10) {
+            savedResults.splice(0, savedResults.length - 10);
+        }
+        
+        localStorage.setItem('witTestResults', JSON.stringify(savedResults));
+        localStorage.setItem('latestWitTestResult', JSON.stringify(results));
+    }
+
+    shareToTwitter() {
+        const latestResult = JSON.parse(localStorage.getItem('latestWitTestResult') || '{}');
+        const primaryType = latestResult.primaryType || '未診断';
+        const scores = latestResult.scores || {};
+        const totalScore = Math.round((scores.originality + scores.empathy + scores.improvisation) / 3);
+        
+        const text = `🧠 ウィット診断テスト結果\n\n🏷️ ${primaryType}\n📊 総合スコア: ${totalScore}\n🎯 独自性: ${scores.originality}\n💖 共感性: ${scores.empathy}\n⚡ 即興性: ${scores.improvisation}\n\n#ウィット診断 #診断テスト`;
+        
+        const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(window.location.href)}`;
+        window.open(url, '_blank');
+    }
+
+    shareToLine() {
+        const latestResult = JSON.parse(localStorage.getItem('latestWitTestResult') || '{}');
+        const primaryType = latestResult.primaryType || '未診断';
+        const scores = latestResult.scores || {};
+        const totalScore = Math.round((scores.originality + scores.empathy + scores.improvisation) / 3);
+        
+        const text = `🧠 ウィット診断テスト結果\n\n🏷️ ${primaryType}\n📊 総合スコア: ${totalScore}\n\nあなたも診断してみませんか？`;
+        
+        const url = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(text)}`;
+        window.open(url, '_blank');
     }
 
     displayResults(scores, primaryType, typeCounts) {
